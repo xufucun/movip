@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vip.css">
+
+    <title>VIP视频在线观看</title>
+</head>
+
+<body>
+
+<!-- 导航栏 -->
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30"
+             class="d-inline-block align-top" alt="">
+        Bootstrap
+    </a>
+</nav>
+
+
+<iframe src="" name="play" id="play" width="100%" align="center" height="320px" frameborder="0" marginheight="0"
+        marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
+
+<div style="margin: 16px">
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">选择解析通道</label>
+        </div>
+        <select id="jk" class="custom-select" id="inputGroupSelect01">
+            <option selected>Choose...</option>
+            <option value="http://000o.cc/jx/yk.php?url=">通道1</option>
+            <option value="http://api.baiyug.cn/vip/index.php?url=">通道2</option>
+            <option value="https://api.daidaitv.com/index/?url=">通道3</option>
+            <option value="http://jx.maoyun.tv/index.php?id=">通道4</option>
+            <option value="https://api.47ks.com/webcloud/?v=">通道5</option>
+            <option value="http://api.iy11.cn/apiget.php?url=">通道6</option>
+            <option value="http://jx.agxia.com/index.php?url=">通道7</option>
+            <option value="http://jiexi.071811.cc/jx2.php?url=">通道8</option>
+            <option value="9">通道9</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">输入视频地址</span>
+        </div>
+        <input name="vipurl" id="vipurl" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    </div>
+
+    <div class="input-group mb-3">
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="onPlay()">解析</button>
+    </div>
+
+</div>
+
+
+<footer>
+    <p>Posted by: moid</p>
+    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vip.js"></script>
+
+</body>
+</html>
